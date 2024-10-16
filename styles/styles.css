@@ -1,0 +1,316 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Mono", sans-serif;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  background-size: cover;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  color: rgba(255, 255, 255, 1);
+}
+
+.header {
+  padding-top: 27px;
+  height: 765px;
+  background-image: url(../resurses/Developer-at-a-laptop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-nav {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../resurses/logotype.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 39px;
+}
+
+.logotip {
+  font-size: 42.41px;
+  font-weight: 700;
+  line-height: 55.14px;
+  letter-spacing: -0.11em;
+  color: rgba(27, 255, 7, 1);
+}
+
+.nav-section {
+  position: absolute;
+  display: inline-block;
+  margin-left: 773px;
+}
+
+.nav__link {
+  margin-right: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 23.4px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav-section a:last-child {
+  margin-right: 0;
+}
+
+.nav__link:hover {
+  color: rgba(27, 255, 7, 1);
+}
+
+h1 {
+  margin-top: 252px;
+  width: 430px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.hello {
+  margin-top: 29px;
+  width: 919px;
+  font-size: 80px;
+  line-height: 70px;
+  color: rgba(27, 255, 7, 1);
+}
+
+h2 {
+  margin-top: 150px;
+  margin-bottom: 40px;
+  font-size: 55px;
+  line-height: 71.5px;
+}
+
+.project__realhome {
+  padding-top: 410px;
+  padding-left: 50px;
+  background-image: url(../resurses/discover-your-dream-realestate-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.project__glass {
+  padding-top: 410px;
+  padding-left: 50px;
+  background-image: url(../resurses/glass-Interface-design.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.project__fesiyen {
+  padding-top: 410px;
+  padding-left: 50px;
+  background-image: url(../resurses/fesyen-interface-design.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.heading {
+  font-size: 35px;
+  line-height: 45.5px;
+}
+
+.description {
+  font-size: 30px;
+  line-height: 39px;
+}
+
+h3 {
+  margin-top: 150px;
+  margin-bottom: 48px;
+  font-size: 55px;
+  line-height: 71.5px;
+}
+
+.project__look {
+  margin-top: 80px;
+  width: 582px;
+  height: 153px;
+  border-radius: 10px;
+  background: rgba(27, 255, 7, 1);
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+.project__look:hover {
+  background-color: rgba(0, 0, 0, 1);
+  border: 1px solid rgba(27, 255, 7, 1);
+  color: rgba(27, 255, 7, 1);
+}
+
+.section__competence {
+  max-width: 1150px;
+}
+
+.img {
+  margin-bottom: 2px;
+}
+
+.heading__section {
+  width: 720px;
+  font-size: 35px;
+  line-height: 45.5px;
+  color: rgba(27, 255, 7, 1);
+}
+
+.section .heading__section:last-child {
+  max-width: 678px;
+}
+
+.description__section {
+  margin-top: 15px;
+  margin-bottom: 60px;
+  width: 778px;
+  font-size: 22px;
+  line-height: 28.6px;
+}
+
+h4 {
+  margin-top: 150px;
+  margin-bottom: 74px;
+  width: 403px;
+  height: 92px;
+  font-size: 35px;
+  line-height: 45.5px;
+}
+
+.section__realization {
+  width: 1150px;
+}
+
+.realization__img {
+  width: 100%;
+}
+
+.fon__description {
+  margin-bottom: 74px;
+  padding: 40px;
+  width: 100%;
+  height: 283px;
+  border-radius: 30px;
+  background: rgba(25, 28, 25, 1);
+}
+
+.realization__header {
+  font-size: 55px;
+  text-align: left;
+  color: rgba(27, 255, 7, 1);
+}
+
+.realization__description {
+  margin-top: 15px;
+  width: 749px;
+  height: 116px;
+  font-size: 22px;
+  line-height: 28.6px;
+}
+
+.futer {
+  margin: 0 auto;
+}
+
+.boxes-wrepper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contacts-box {
+  width: 50%;
+  height: 717px;
+  background-color: rgba(25, 28, 25, 1);
+}
+
+.contacts {
+  margin-top: 320px;
+  margin-left: 125px;
+  margin-bottom: 28px;
+  font-size: 35px;
+  line-height: 60px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.link-container a {
+  text-decoration: none;
+  margin-left: 125px;
+  margin-bottom: 20px;
+  font-size: 60px;
+  line-height: 60px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.link-container a:hover {
+  color: rgba(27, 255, 7, 1);
+}
+
+.img-box {
+  width: 50%;
+  height: 717px;
+  margin: 0 auto;
+}
+
+.img__futer {
+  background-repeat: no-repeat;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.futer-about {
+  padding-top: 76px;
+  margin-top: 150px;
+  width: 100%;
+  height: 215px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.about__my {
+  height: 30px;
+  font-size: 22px;
+  line-height: 30.05px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.about__reserved {
+  margin-top: 66px;
+  opacity: 0.5;
+  font-size: 20px;
+  line-height: 27.32px;
+  color: rgba(0, 0, 0, 1);
+}
