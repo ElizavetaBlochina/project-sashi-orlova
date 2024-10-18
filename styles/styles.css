@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1150px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -102,31 +102,30 @@ h2 {
   line-height: 71.5px;
 }
 
-.project__realhome {
-  padding-top: 410px;
-  padding-left: 50px;
-  background-image: url(../resurses/discover-your-dream-realestate-home.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 550px;
+.section-projects {
+  width: 100%;
 }
 
+.project__realhome,
+.project__fesiyen,
 .project__glass {
   padding-top: 410px;
   padding-left: 50px;
-  background-image: url(../resurses/glass-Interface-design.png);
+  height: 550px;
+  border-radius: 30px;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 550px;
+}
+.project__realhome {
+  background-image: url(../resurses/discover-your-dream-realestate-home.png);
+}
+
+.project__glass {
+  background-image: url(../resurses/glass-Interface-design.png);
 }
 
 .project__fesiyen {
-  padding-top: 410px;
-  padding-left: 50px;
   background-image: url(../resurses/fesyen-interface-design.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 550px;
 }
 
 .heading {
